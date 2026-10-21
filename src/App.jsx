@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import { Sports } from './pages/Sports'
 import { Home } from './pages/Home'
 import { Movie } from './pages/Movie'
 import { Series } from './pages/Series'
@@ -25,6 +26,7 @@ function App() {
         <Route path="/series" element={<Series />} />
         <Route path="/new" element={<New />} />
         <Route path='/animate' element={<AnimatePage />} />
+        <Route path="/sports" element={<Sports />} />
         <Route path="/heart" element={<Heart />} />
         
         <Route path="/movie/:id" element={<MovieDetail />} />
